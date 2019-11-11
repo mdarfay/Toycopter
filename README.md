@@ -21,21 +21,21 @@ First (and main) objective of this project was to get familiar with OpenGL, GLSL
 Second objective was to do a small animation, using all the notions seen during the course.
 
 All the notions seen and used are listed below:
-..* Shader coding, to display vertices, colors and polygons.
-..* Objects modeling, using mathematical functions and representations, and importing complex meshes (`.obj`).
-..* Geometric transformations, using differents coordinates system. Includes translating, scaling and rotating objects.
-..* Hierarchical modeling: linking objects together. Using local (independant from hierarchy) and hierarchical transformations.
-..* Procedural animation, using keyframes.
-..* Physically-based animation (springs, particles, planes, force fields, gravity, ...).
-..* Lighting and shading (Phong illumination model).
-..* Textures and materials, image filtering and wrapping, mipmapping and multi-texturing.
+* Shader coding, to display vertices, colors and polygons.
+* Objects modeling, using mathematical functions and representations, and importing complex meshes (`.obj`).
+* Geometric transformations, using differents coordinates system. Includes translating, scaling and rotating objects.
+* Hierarchical modeling: linking objects together. Using local (independant from hierarchy) and hierarchical transformations.
+* Procedural animation, using keyframes.
+* Physically-based animation (springs, particles, planes, force fields, gravity, ...).
+* Lighting and shading (Phong illumination model).
+* Textures and materials, image filtering and wrapping, mipmapping and multi-texturing.
 
 ## Main features of the project
 ### Modeling
 The main object of the animation, the helicopter, consists in 3 objects:
-..* the body,
-..* the top blades,
-..* the tail blades.
+- the body,
+- the top blades,
+- the tail blades.
 
 These 3 objects are linked together in a hierarchy: the body is the father of the blades. This property is used in the animation process.
 
@@ -69,11 +69,11 @@ Textures are as well a key element to give the objects their aspect. Some object
 ## 3D models references
 All the 3D models used in our scene come from internet. Some of them were modified using Blender. All the models can be found below:
 
-**Helicopter**
+**Helicopter:**
 https://www.turbosquid.com/fr/3d-models/dinoco-blend-free/459106
 
-**Room**
+**Room:**
 https://sketchfab.com/search?q=andy%27s+room&sort_by=-pertinence&type=models
 
-**Photophore (nightstand lamp)**
+**Photophore (nightstand lamp):**
 https://cults3d.com/en/3d-model/home/photophore-ce0f1d43-b04a-4cbf-b056-d1eb2c8bb4ba
