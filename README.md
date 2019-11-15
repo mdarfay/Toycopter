@@ -66,6 +66,9 @@ Materials are applied to objects. These materials have different properties, whi
 
 Textures are as well a key element to give the objects their aspect. Some objects (like the stars behind one of the windows) have different textures, which are swapped in a loop, animating the object and the textures.
 
+## Key words
+OpenGL - Keyframes - Physically-based animation - Phong's illumination - Materials - Textures
+
 ## 3D models references
 All the 3D models used in our scene come from internet. Some of them were modified using Blender. All the models can be found below:
 
